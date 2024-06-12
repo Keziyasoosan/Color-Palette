@@ -1,11 +1,29 @@
-.{
-    background: transparent;
+ *{
     margin: 0;
     padding: 0;
-    outline: none;
-    border: 0;
     box-sizing: border-box;
-}
-.section{
+   
     
+    
+}
+.section1{
+    text-align: center;
+    margin: 150px 150px 150px;
+    
+}
+.section1 h1{
+    margin: 0px 0px 25px 0px;
+    font-family: inter,sans-serif;
+    font-size: 500;
+}
+.section1 .colors{
+    width: 80;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 20px;
+}
+.section1 .colors .color .color-img{
+    height: 200px;
+    background-color: blue;
 }

@@ -27,7 +27,7 @@
 
 }
 .section1 .colors{
-    width: 75%;
+    width: 65%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -36,34 +36,38 @@
 }
 
 .section1 .colors .color .color-img1{
-    height: 200px;
+    height: 250px;
     background-color: var(--background-color);
     margin-bottom: 15px;
-        
+        border-radius: 1rem;
+      
 }
 .section1 .colors .color .color-img2{
-    height: 200px;
+    height: 250px;
     background-color: var(--primary-color);
     margin-bottom: 15px;
+    border-radius: 1rem;
         
 }
 .section1 .colors .color .color-img3{
-    height: 200px;
+    height: 250px;
     background-color: var(--secondary-color);
     margin-bottom: 15px;
+    border-radius: 1rem;
         
 }
 .section1 .colors .color .color-img4{
-    height: 200px;
+    height: 250px;
     background-color: var(--accent-color);
     margin-bottom: 15px;
+    border-radius: 1rem;
         
 }
 :root{
     --primary-color:#1abc9c;
     --secondary-color:#9b59b6;
     --accent-color:#e74c3c;
-      --background-color:#ecf0f1;
+    --background-color:#ecf0f1;
     
 
 }
